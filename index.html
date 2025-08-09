@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My 3D Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+    <header data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+        <div class="logo">Shaik Mahammed Tauheed</div>
+        <button class="contact-btn">Contact</button>
+    </header>
+
+    <main>
+        <div class="title-section" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+            <h1>Front-end DEVELOPER</h1>
+            <h2>WEB DEV</h2>
+            <div class="location">
+                <p>Prompt Engineering<br>Enthusiast</p>
+            </div>
+        </div>
+
+        <div class="bio-section" data-aos="fade-up" data-aos-duration="1500">
+            <!-- Aspiring software engineer with a passion for problem-solving and innovation. A fast learner with strong analytical skills, eager to collaborate, adapt, and make an impact in a dynamic tech environment. -->
+            <p class="bio">
+                Aspiring <span style="color: #76b0ab;">software engineer </span> with a passion for problem-solving and
+                innovation. A fast learner with strong analytical skills, eager to collaborate, adapt, and make an
+                impact in a<span style="color: #842626;"> dynamic tech environment.</span>
+            </p>
+        </div>
+
+        <div class="scroll-down" data-aos="fade-up" data-aos-duration="1500"></div>
+
+        <spline-viewer data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0"
+            data-aos-duration="3000" class="planet-3D"
+            url="https://prod.spline.design/5GeQ7R7lsgyNBbCH/scene.splinecode">
+        </spline-viewer>
+
+    </main>
+
+    <section class="about-section">
+        <h1 class="about-title" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">About Me</h1>
+
+        <div class="bento-grid">
+            <div class="card intro" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine"
+                data-aos-duration="1500">
+                <h2 class="card-title">HI THERE, I'M TAUHEED</h2>
+                <p class="card-text">
+                    I am a B.Tech Computer Science undergraduate (2026) passionate about software development and innovative technologies. Skilled in Full-Stack Web Development and AI applications. I combine technical expertise and creative problem-solving to build scalable, user-focused solutions while continuously learning and adapting to the evolving tech landscape.
+                </p>
+
+                <img src="images/gradient1.png" alt="" class="background-img">
+
+                <div class="model-box">
+                    <iframe src='https://my.spline.design/genkubgreetingrobot-P6b8DcPg7G2eqMWuS1j8yAoM/' frameborder='0' width='100%' height='100%'></iframe>
+                    <!-- <spline-viewer class="info-3D"
+                        url="https://prod.spline.design/qiGD3Sq6465bil4K/scene.splinecode"><spline-viewer> -->
+                </div>
+            </div>
+
+            <div class="card tech" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine"
+                data-aos-duration="1500">
+                <h2 class="card-title">TECH STACK</h2>
+                <p class="card-text">
+                    My tech stack blends front-end creativity, back-end logic, and database efficiency to deliver impactful, end-to-end solutions. On the front end, I craft responsive and engaging user interfaces using HTML, CSS, JavaScript, and React. On the back end, I build secure and scalable server-side applications with Python and Django. For data management, I leverage SQL and MongoDB to ensure fast, reliable, and well-structured storage. This combination empowers me to transform ideas into seamless digital experiences that are both functional and user-focused.
+                </p>
+
+                <img src="images/gradient 2.png" alt="" class="background-img">
+                <img src="images/skills group.png" alt="" class="skills-group">
+            </div>
+
+            <div class="card time" data-aos="fade-up" data-aos-duration="1500">
+                <h2 class="card-title">CODE. CREATE. INNOVATE.</h2>
+            
+                <p class="card-text">Full-Stack & AI enthusiast crafting scalable, user-focused solutions with a passion for learning and innovation.</p>
+            
+                <img src="images/gradient3&4.png" alt="" class="background-img">
+                <a href="#contact-section" class="btn"><i class='bx bx-send'></i> CONTACT ME</a>
+                <!-- <button class="btn"><i class='bx bx-send'></i> CONTACT ME</button> -->
+            </div>            
+            
+
+            <div class="card passion" data-aos="fade-up" data-aos-duration="1500">
+                <h2 class="card-title">PASSION FOR CODING</h2>
+                <p class="card-text">
+                    Solving problems and building solutions through code. Programming is my profession—it's my passion.
+                    I enjoy exploring new technologies and enhancing my skills.
+                </p>
+
+                <img src="images/gradient3&4.png" alt="" class="background-img">
+            </div>
+        </div>
+    </section>
+
+
+    <section class="projects-section">
+        <h3 data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">My Projects</h3>
+
+        <div class="slider" style="
+            --width: 60rem;
+            --height: 40rem;
+            --quantity: 4;
+        ">
+
+            <div class="list">
+                <div class="item" style="--position: 1">
+                    <video id="projectVideo1" width="100%" height="auto" loop playsinline autoplay muted>
+                        <source src="video/project1.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+
+                <div class="item" style="--position: 2">
+                    <video id="projectVideo2" width="100%" height="auto" loop playsinline autoplay muted>
+                        <source src="video/project2.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+
+                <!-- <div class="item" style="--position: 3">
+                    <video id="projectVideo3" width="100%" height="auto" loop playsinline autoplay muted>
+                        <source src="video/project-3.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+
+                <div class="item" style="--position: 4">
+                    <video id="projectVideo4" width="100%" height="auto" loop playsinline autoplay muted>
+                        <source src="video/project-4.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div> -->
+            </div>
+
+        </div>
+    </section>
+
+    <!-- EDUCATION CARDS SECTION -->
+    <section class="education-section">
+        <div class="section-header" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+            <h3>My Education</h3>
+            <p class="section-subtitle">My academic journey and achievements</p>
+        </div>
+        
+        <div class="education-cards">
+            <!-- Degree Card -->
+            <div class="education-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <div class="card-icon">
+                            <i class='bx bxs-graduation'></i>
+                        </div>
+                        <h4>B.Tech CSE</h4>
+                        <p class="institution">Srinivasa Ramanujan Institute of Technology</p>
+                        <div class="year-badge">2022 - present</div>
+                    </div>
+                    <div class="card-back">
+                        <h4>B.Tech in Computer Science</h4>
+                        <div class="grade">CGPA: 9.01/10</div>
+                        <p>Specializing in Full Stack Development and AI Applications</p>
+                        <ul class="achievements">
+                            <li>Coursework in Data Structures, Algorithms, and Web Technologies</li>
+                            <li>Active participant in coding competitions</li>
+                            <li>Class representive from the academic year 2023-present</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Intermediate Card -->
+            <div class="education-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <div class="card-icon">
+                            <i class='bx bxs-school'></i>
+                        </div>
+                        <h4>Intermediate (MPC)</h4>
+                        <p class="institution">Narayana Junior College</p>
+                        <div class="year-badge">2020 - 2022</div>
+                    </div>
+                    <div class="card-back">
+                        <h4>Mathematics, Physics, Chemistry</h4>
+                        <div class="grade">Percentage: 93%</div>
+                        <p>Focus on STEM subjects and competitive exam preparation</p>
+                        <ul class="achievements">
+                            <li>Strong foundation in Mathematics</li>
+                            <li>Participated in science exhibitions</li>
+                            <li>Developed problem-solving skills</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- School Card -->
+            <div class="education-card" data-aos="fade-up" data-aos-delay="300">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <div class="card-icon">
+                            <i class='bx bxs-book'></i>
+                        </div>
+                        <h4>10th Standard</h4>
+                        <p class="institution">Sree Krishna English Medium High School</p>
+                        <div class="year-badge">2019 - 2020</div>
+                    </div>
+                    <div class="card-back">
+                        <h4>Secondary Education</h4>
+                        <div class="grade">GPA: 10/10</div>
+                        <p>Strong academic foundation with focus on core subjects</p>
+                        <ul class="achievements">
+                            <!-- <li>School </li> -->
+                            <li>Active in extracurricular activities</li>
+                            <li>Developed leadership skills</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- RESUME DOWNLOAD SECTION -->
+    <section class="resume-section">
+        <div class="resume-container" data-aos="zoom-in" data-aos-duration="1000">
+            <div class="resume-content">
+                <h3>Download My Resume</h3>
+                <p>Get a detailed overview of my skills, experience, and achievements in a professional format.</p>
+                <a href="documents/Myresume.pdf" class="download-btn" download>
+                    <i class='bx bx-download'></i> Download CV
+                </a>
+                <div class="resume-preview">
+                    <!-- You can add a preview image of your resume here -->
+                    <img src="images/resume.png?v=2" alt="Resume Preview">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact-section" class="contact-section">
+        <div class="section-header" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+            <h3>Get In Touch</h3>
+            <p>Have a project in mind or just want to say hello? Drop me a message</p>
+        </div>
+
+        <div class="contact-grid" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300"
+            data-aos-offset="0" data-aos-duration="1500">
+
+            <div class="info-card">
+                <h3>Contact info</h3>
+
+                <div class="contact-item">
+                    <p>Email</p>
+                    <a href="#">smahammedtauheed@gmail.com</a>
+                </div>
+
+                <div class="contact-item">
+                    <p>Phone</p>
+                    <a href="#">+91 8328051484</a>
+                </div>
+
+                <div class="contact-item">
+                    <p>Location</p>
+                    <a href="#">Anantapur, Andhra Pradesh</a>
+                </div>
+
+                <div class="social-link">
+                    <p>Contacy with me</p>
+                    <a href="https://github.com/tauheed-shaik/">GitHub</a>
+                    <a href="https://www.linkedin.com/in/mahammed-tauheed-s-73b56b2b5/">Linkedin</a>
+                    <!-- <a href="#">Twitter</a> -->
+                </div>
+
+            </div>
+
+            <div class="info-card">
+                <div class="info-card-content">
+                    <h3>Send Message</h3>
+
+                    <form id="contactForm">
+
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your name" required
+                                class="form-control">
+                        </div>
+
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required
+                                class="form-control">
+                        </div>
+
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="subject" required
+                                class="form-control">
+                        </div>
+
+                        <div class="form-group">
+                            <textarea name="message" id="message" placeholder="Your Message" required
+                                class="form-control"></textarea>
+                        </div>
+
+                        <button type="submit" id="submitBtn" class="message-btn">Send Message</button>
+
+                        <div class="success-message" id="successMessage">
+                            Message sent successfully! I'll get back to you soon.
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <h3>My Portfolio 2025 ©️All rights reserved</h3>
+        <div class="box-icons">
+            <!-- <a href="#"><i class='bx bxl-youtube'></i></a> -->
+            <a href="https://github.com/tauheed-shaik/"><i class='bx bxl-github'></i></a>
+            <a href="https://www.linkedin.com/in/mahammed-tauheed-s-73b56b2b5/"><i class='bx bxl-linkedin-square'></i></a>
+        </div>
+    </footer>
+
+
+    <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.96/build/spline-viewer.js"></script>
+
+
+    <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.79/build/spline-viewer.js"></script>
+
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init({
+                publicKey: "9c9UABgvXx_XjFIfd",
+            });
+        })();
+    </script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
