@@ -4,7 +4,7 @@ A stunning, interactive 3D portfolio website showcasing my journey as a Front-en
 
 ## 🌟 Live Demo
 
-Visit my portfolio: [Live Website](https://tauheed-shaik.github.io/My-Portfolio/)
+Visit my portfolio: [Live Website](https://dashing-sfogliatella-e59d2f.netlify.app/)
 
 ## ✨ Features
 
